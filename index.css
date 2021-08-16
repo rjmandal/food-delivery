@@ -82,7 +82,7 @@
 #home h1{
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    color:red;
+    color:black;
 }
 #home p{
     text-align: center;
@@ -139,7 +139,7 @@
 /* contact section */
 #contact{
     position: relative;
-    height: 400px;
+    height: 450px;
 }
 
 #contact ::before{
