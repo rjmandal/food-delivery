@@ -97,7 +97,7 @@
 }
 #services .box{
     padding: 24px;
-    margin: 3px 55px;
+    margin: 15px 10px;
     border-radius: 28px;
     background-color: red;
 }
@@ -139,7 +139,7 @@
 /* contact section */
 #contact{
     position: relative;
-    height: 350px;
+    height: 400px;
 }
 
 #contact ::before{
