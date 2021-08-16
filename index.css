@@ -11,11 +11,11 @@
     align-items: center;
     position: relative;
     top: 0px;
-    border-bottom: 5px solid red;
+    border-bottom: 5px solid #FF7315;
 }
 #navbar::before{
     content:"";
-    background-color: red;
+    background-color: #FF7315;
     position: absolute;
     top: 0px;
     left: 0px;
@@ -31,7 +31,7 @@
 #logo img{
     height: 50px;
     margin: 1px 5px;
-    border: 5px solid red;
+    border: 5px solid #FF7315;
     border-radius: 222px;
 }
 /* navigation bar: list styling */
@@ -49,11 +49,10 @@
     padding: 3px 22px;
     border-radius: 20px;
     text-decoration: none;
-    color:black;
 }
 #navbar ul li a:hover{
     color:white;
-    background-color:red;
+    background-color:#FF7315;
 }
 
 /* home section */
@@ -70,7 +69,7 @@
     background:url(image/bg-10.jpg) no-repeat center center/cover;
     position: absolute;
     border-radius: 0px 0px 15px 15px;
-    border-bottom:3px solid red;
+    border-bottom:3px solid #FF7315;
     top: 0px;
     left: 0px;
     height:642px;
@@ -82,11 +81,11 @@
 #home h1{
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    color:black;
+    color:#11052C;
 }
 #home p{
     text-align: center;
-    color: black;
+    color: #11052C;
     font-size: 1.5rem;
     font-family: 'Montserrat', sans-serif;
 }
@@ -99,7 +98,7 @@
     padding: 24px;
     margin: 15px 10px;
     border-radius: 28px;
-    background-color: red;
+    background-color: #FF7315;
 }
 #services .box img{
     height: 150px;
@@ -140,6 +139,7 @@
 #contact{
     position: relative;
     height: 450px;
+    color: #11052C;
 }
 
 #contact ::before{
@@ -185,18 +185,18 @@ footer{
     font-size: 3.8rem;
     padding: 12px;
     font-family: 'Montserrat', sans-serif;
-    color: black    ;
+    color: #11052C;
 }
 .h-secondary{
     font-size: 2.3rem;
     padding: 12px;
     font-family: 'Montserrat', sans-serif;
-    color: white;
+    color: #11052C;
 }
 .btn{
     padding: 6px 20px ;
     border: 2px solid white;
-    background-color: #FA1E0E;
+    background-color: #FF7315;
     color: white;
     margin: 17px;
     font-size: 1.5rem;
